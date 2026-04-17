@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Build/work artifacts (raw video exports, scratch images)
+*.mp4
+thumbnail.png
+
+# Agents
+.github/copilot-instructions.md
