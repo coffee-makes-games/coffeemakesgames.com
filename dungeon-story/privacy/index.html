@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Dungeon Story Privacy Policy - Coffee Makes Games Studio</title>
+  <meta name="description" content="Privacy policy for Dungeon Story, including diagnostics, telemetry, iCloud save sync, StoreKit purchases, and Game Center leaderboards." />
+  <meta name="theme-color" content="#EFE9DD" />
+  <link rel="canonical" href="https://coffeemakesgames.com/dungeon-story/privacy/" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+
+  <script>
+    // Apply saved theme before paint to avoid flash of wrong theme.
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') {
+          document.documentElement.setAttribute('data-theme', saved);
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="policy-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header is-revealed" aria-hidden="false">
+    <div class="site-header-inner">
+      <a class="brand" href="/" aria-label="Coffee Makes Games Studio - home">
+        <img src="/assets/studio-mark.svg" alt="" width="24" height="24" />
+        <span>Coffee Makes Games Studio</span>
+      </a>
+      <div class="header-actions">
+        <nav aria-label="Primary">
+          <a href="/#dungeon-story">Dungeon Story</a>
+          <a href="/#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false" title="Toggle dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z"/>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <circle cx="12" cy="12" r="4" fill="currentColor" stroke="none"/>
+              <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+            </g>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="policy-shell">
+    <article class="policy-card">
+      <p class="eyebrow">Dungeon Story</p>
+      <h1>Privacy Policy</h1>
+      <p class="policy-updated">Last updated: April 27, 2026</p>
+
+      <p>
+        This policy explains how Dungeon Story handles diagnostics, telemetry, iCloud save sync, StoreKit purchases,
+        and Game Center leaderboards. Dungeon Story does not include ads and does not use third-party tracking for
+        advertising.
+      </p>
+
+      <h2>Diagnostics</h2>
+      <p>
+        If diagnostics sharing is enabled, the game may share technical diagnostic reports with the developers and with
+        third-party service providers that store and process this data to help diagnose and fix bugs. Diagnostics are
+        configured to avoid collecting any personal content, but the reports may still include app and device details,
+        plus installation-related and issue-related technical details. If the game closed unexpectedly, it may ask
+        whether to share pending diagnostics on the next launch. Diagnostic sharing can be turned off at any time in the
+        options menu.
+      </p>
+      <p>
+        Diagnostic reports and crash reports may be processed by Sentry or similar service providers used to identify,
+        diagnose, and fix bugs.
+      </p>
+
+      <h2>Telemetry</h2>
+      <p>
+        If telemetry sharing is enabled, the game may share aggregated, non-identifying gameplay statistics with the
+        developers and with third-party service providers that store and process this data. This is used to improve the
+        game, such as balance, pacing, and usability. Telemetry sharing can be turned off at any time in the options
+        menu.
+      </p>
+
+      <h2>iCloud and CloudKit save sync</h2>
+      <p>
+        Dungeon Story may use Apple's iCloud and CloudKit services to sync game saves and progress between devices. This
+        sync is handled through the Apple ID and iCloud account configured on the device. Coffee Makes Games does not
+        receive Apple ID credentials or payment information through CloudKit.
+      </p>
+
+      <h2>StoreKit purchases</h2>
+      <p>
+        Dungeon Story may use Apple's StoreKit and the App Store to process purchases. Apple handles payment information
+        and transaction processing. The game may store or check purchase and entitlement status so purchased content can
+        be unlocked or restored.
+      </p>
+
+      <h2>Game Center leaderboards</h2>
+      <p>
+        Dungeon Story may use Apple's Game Center services to support leaderboards. If the player is signed in to Game
+        Center, the game may submit leaderboard scores such as Best Battle Score and Total Battle Score to Apple. Game
+        Center leaderboard data is associated with the player's Game Center account by Apple and may be visible to other
+        Game Center players according to the player's Game Center settings.
+      </p>
+      <p>
+        Coffee Makes Games does not receive Apple ID credentials through Game Center and does not use Game Center data
+        for advertising or third-party tracking.
+      </p>
+
+      <h2>Your choices</h2>
+      <p>
+        Diagnostic sharing and telemetry sharing can be turned off at any time in the options menu. iCloud sync can be
+        managed through the device's iCloud settings. Purchase history, App Store account settings, and Game Center
+        profile or leaderboard visibility settings are managed by Apple.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        For privacy questions, contact Coffee Makes Games at
+        <a href="mailto:hello@coffeemakesgames.com">hello@coffeemakesgames.com</a>.
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Coffee Makes Games LLC</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme toggle: cycles between user-light and user-dark, with system as the default.
+    (function () {
+      const root = document.documentElement;
+      const buttons = Array.from(document.querySelectorAll('.theme-toggle'));
+      const meta = document.querySelector('meta[name="theme-color"]');
+      const mq = window.matchMedia('(prefers-color-scheme: dark)');
+
+      function currentTheme() {
+        return root.getAttribute('data-theme') || (mq.matches ? 'dark' : 'light');
+      }
+      function syncMeta() {
+        if (!meta) return;
+        meta.setAttribute('content', currentTheme() === 'dark' ? '#10141C' : '#EFE9DD');
+      }
+      function syncButtons() {
+        const dark = currentTheme() === 'dark';
+        const label = dark ? 'Switch to light mode' : 'Switch to dark mode';
+        buttons.forEach(function (btn) {
+          btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+          btn.setAttribute('aria-label', label);
+          btn.setAttribute('title', label);
+        });
+      }
+
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          const next = currentTheme() === 'dark' ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+          syncMeta();
+          syncButtons();
+        });
+      });
+
+      mq.addEventListener && mq.addEventListener('change', function () {
+        if (!root.getAttribute('data-theme')) { syncMeta(); syncButtons(); }
+      });
+
+      syncMeta();
+      syncButtons();
+    })();
+  </script>
+</body>
+</html>

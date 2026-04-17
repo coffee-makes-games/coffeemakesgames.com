@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Coffee Makes Games Studio — Dungeon Story (iOS, coming soon)</title>
+  <meta name="description" content="Coffee Makes Games is a solo indie studio brewing games with care. Our first game, Dungeon Story, is coming soon to iOS." />
+  <meta name="theme-color" content="#EFE9DD" />
+  <link rel="canonical" href="https://coffeemakesgames.com/" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://coffeemakesgames.com/" />
+  <meta property="og:title" content="Coffee Makes Games — Coffee in. Games out." />
+  <meta property="og:description" content="A solo indie studio brewing games with care. Dungeon Story coming soon to iOS." />
+  <meta property="og:image" content="https://coffeemakesgames.com/assets/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@coffeemakesgame" />
+  <meta name="twitter:title" content="Coffee Makes Games" />
+  <meta name="twitter:description" content="A solo indie studio brewing games with care. Dungeon Story coming soon to iOS." />
+  <meta name="twitter:image" content="https://coffeemakesgames.com/assets/og-image.png" />
+
+  <link rel="stylesheet" href="/styles.css" />
+
+  <script>
+    // Apply saved theme before paint to avoid flash of wrong theme.
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') {
+          document.documentElement.setAttribute('data-theme', saved);
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <button class="theme-toggle theme-toggle--floating" type="button" aria-label="Toggle dark mode" aria-pressed="false" title="Toggle dark mode">
+    <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <circle cx="12" cy="12" r="4" fill="currentColor" stroke="none"/>
+        <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+      </g>
+    </svg>
+  </button>
+
+  <header class="site-header" aria-hidden="true">
+    <div class="site-header-inner">
+      <a class="brand" href="/" aria-label="Coffee Makes Games Studio — home">
+        <img src="/assets/studio-mark.svg" alt="" width="24" height="24" />
+        <span>Coffee Makes Games Studio</span>
+      </a>
+      <div class="header-actions">
+        <nav aria-label="Primary">
+          <a href="#dungeon-story">Dungeon Story</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false" title="Toggle dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z"/>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <circle cx="12" cy="12" r="4" fill="currentColor" stroke="none"/>
+              <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+            </g>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 250 1472.620325 1397.704157" preserveAspectRatio="xMidYMid meet" class="cmg-mark" aria-label="Coffee Makes Games" role="img">
+          <g transform="translate(-87.615694,1647.870927) scale(0.100000,-0.100000)"
+        fill="#000000" stroke="none">
+            <path class="mug" fill="currentColor" d="M5695 10549 c-77 -3 -257 -7 -400 -8 -143 -1 -332 -6 -420 -11 -88
+        -6 -275 -15 -415 -20 -140 -5 -295 -14 -345 -20 -49 -5 -128 -10 -175 -10 -47
+        0 -150 -6 -230 -14 -239 -24 -389 -38 -500 -46 -58 -4 -143 -13 -190 -18 -112
+        -15 -268 -33 -355 -42 -38 -4 -97 -12 -130 -18 -83 -15 -199 -33 -265 -42 -79
+        -10 -299 -52 -375 -71 -22 -6 -53 -13 -70 -15 -16 -3 -55 -12 -85 -20 -30 -9
+        -80 -22 -110 -30 -30 -9 -68 -20 -85 -26 -16 -5 -43 -14 -60 -18 -116 -33
+        -292 -118 -380 -185 -80 -61 -96 -78 -145 -155 -78 -121 -85 -171 -84 -565 1
+        -176 4 -1465 8 -2865 4 -1552 11 -2588 17 -2655 25 -276 29 -312 39 -345 5
+        -19 10 -50 10 -69 0 -19 6 -60 14 -90 15 -57 30 -124 46 -196 5 -22 18 -71 30
+        -110 11 -38 25 -83 30 -100 17 -59 65 -192 110 -305 44 -110 116 -259 175
+        -365 19 -33 37 -67 41 -75 20 -41 179 -283 248 -375 144 -192 409 -475 591
+        -632 121 -104 519 -393 540 -393 3 0 33 -17 67 -38 52 -32 168 -97 238 -133
+        66 -34 254 -119 320 -144 25 -10 54 -21 65 -26 11 -5 34 -13 50 -18 17 -5 55
+        -19 85 -31 30 -12 69 -25 85 -30 17 -5 44 -13 60 -18 17 -6 57 -18 90 -27 33
+        -9 76 -22 95 -28 19 -6 53 -14 75 -18 22 -4 60 -13 85 -19 95 -24 137 -32 195
+        -40 33 -4 92 -12 130 -18 39 -6 102 -16 140 -22 170 -26 594 -31 2368 -27
+        1651 3 1829 5 1897 20 41 10 91 17 110 17 51 0 321 51 401 76 26 8 55 14 65
+        14 17 0 65 13 149 42 17 5 46 14 65 18 34 8 106 32 145 49 20 9 70 28 148 57
+        23 9 57 22 75 30 17 8 47 20 65 28 177 76 381 187 622 339 27 17 323 239 365
+        273 113 94 363 340 455 448 28 32 64 75 81 95 55 64 179 234 235 321 85 132
+        92 143 113 180 11 19 30 53 42 75 13 22 46 87 74 145 50 103 61 125 95 205 43
+        98 24 89 202 97 87 3 193 11 236 17 43 6 104 11 135 11 31 1 86 7 122 15 36 8
+        83 14 104 15 22 0 65 6 95 14 63 16 136 33 196 46 22 4 54 12 70 18 17 6 57
+        18 90 27 56 16 76 23 175 60 125 47 191 75 315 137 92 45 78 37 220 123 243
+        147 417 286 629 506 160 166 359 425 425 554 6 11 26 47 45 80 19 33 44 80 56
+        105 12 25 26 52 31 60 5 8 12 22 15 30 3 8 12 29 19 45 35 80 44 103 60 145 9
+        25 23 60 31 78 8 18 14 39 14 47 0 8 6 29 14 47 23 56 38 101 46 143 11 52 29
+        121 43 165 6 19 14 58 18 85 4 28 12 75 17 105 36 182 50 358 54 653 3 260
+        -11 598 -28 675 -8 35 -14 80 -14 101 0 21 -7 58 -15 81 -8 23 -15 54 -15 68
+        0 14 -7 50 -16 81 -8 31 -22 81 -31 111 -8 30 -21 70 -29 88 -8 18 -14 39 -14
+        47 0 8 -7 31 -16 52 -9 21 -22 52 -29 68 -7 17 -22 54 -34 83 -32 79 -138 279
+        -182 346 -21 32 -39 60 -39 63 0 10 -129 173 -194 247 -107 120 -335 311 -416
+        349 -8 4 -28 16 -45 27 -59 37 -258 133 -340 163 -107 38 -133 47 -215 68 -25
+        6 -67 17 -94 25 -26 8 -60 14 -75 14 -14 0 -42 5 -61 10 -75 23 -275 33 -755
+        39 l-500 6 -5 460 c-5 471 -6 476 -46 558 -8 16 -14 33 -14 37 0 19 -60 97
+        -112 145 -64 61 -138 110 -233 154 -38 18 -82 39 -97 47 -14 8 -35 14 -45 14
+        -10 0 -23 4 -28 9 -6 4 -44 18 -85 30 -41 13 -91 28 -110 34 -19 6 -53 14 -75
+        17 -22 4 -60 12 -85 18 -92 22 -304 63 -380 72 -60 8 -158 23 -291 46 -47 7
+        -104 14 -126 14 -23 0 -77 7 -120 15 -43 8 -103 15 -133 15 -30 0 -75 5 -100
+        11 -25 6 -97 14 -160 19 -147 11 -327 28 -455 41 -55 6 -170 15 -255 20 -85 5
+        -193 13 -240 18 -47 6 -130 10 -185 11 -55 0 -143 5 -195 11 -52 5 -198 14
+        -325 19 -126 5 -349 14 -495 20 -615 25 -2013 37 -2355 19z m2125 -650 c58 -5
+        186 -11 285 -14 171 -5 434 -22 735 -47 74 -6 182 -14 240 -18 127 -9 294 -25
+        455 -45 66 -9 140 -15 165 -15 25 0 65 -5 90 -11 25 -6 88 -14 140 -19 52 -5
+        129 -14 170 -20 41 -6 127 -18 190 -26 131 -17 277 -39 365 -56 33 -6 85 -15
+        115 -18 122 -16 505 -101 595 -131 17 -6 44 -14 60 -19 17 -4 41 -12 55 -18
+        39 -15 103 -40 123 -46 25 -8 1 -44 -38 -55 -16 -5 -55 -19 -85 -31 -30 -12
+        -77 -28 -105 -36 -27 -8 -72 -21 -100 -30 -27 -8 -68 -19 -90 -23 -22 -4 -56
+        -12 -75 -19 -39 -12 -120 -31 -165 -38 -16 -3 -59 -11 -95 -19 -175 -37 -217
+        -45 -245 -45 -16 0 -55 -7 -85 -15 -30 -8 -71 -15 -90 -15 -19 0 -71 -6 -115
+        -14 -107 -20 -231 -37 -335 -46 -47 -4 -119 -12 -160 -18 -107 -16 -274 -32
+        -430 -42 -74 -5 -169 -14 -210 -19 -41 -6 -122 -11 -180 -11 -58 -1 -154 -5
+        -215 -10 -104 -9 -282 -16 -1070 -40 -423 -12 -1671 -12 -2060 0 -165 6 -446
+        15 -625 20 -179 5 -334 12 -345 15 -11 3 -117 10 -235 15 -233 10 -433 24
+        -605 42 -60 6 -157 14 -215 18 -103 7 -228 21 -385 41 -44 6 -120 15 -170 20
+        -49 5 -108 13 -130 19 -22 5 -61 10 -86 10 -25 0 -59 4 -75 10 -16 5 -63 14
+        -104 19 -83 11 -171 26 -240 43 -25 6 -65 14 -90 18 -25 4 -67 13 -95 20 -27
+        6 -77 19 -110 27 -33 8 -82 20 -110 28 -27 8 -59 16 -70 19 -39 9 -91 29 -200
+        76 -50 22 -50 22 -20 46 17 13 36 24 43 24 8 0 28 6 45 13 52 22 100 38 137
+        47 19 4 49 13 65 18 99 35 360 94 640 146 44 8 107 20 140 26 33 6 89 15 125
+        20 36 4 92 12 125 18 116 21 211 34 298 42 49 4 116 13 150 19 72 12 238 30
+        387 41 58 5 134 13 170 19 36 6 94 11 130 11 36 0 120 7 185 15 66 8 158 15
+        205 15 47 0 148 7 225 15 77 8 190 15 250 15 61 0 166 5 235 11 309 26 2246
+        33 2520 8z m5545 -2374 c339 -45 583 -157 770 -357 84 -89 97 -106 146 -189
+        119 -201 179 -397 213 -704 28 -242 14 -599 -30 -810 -8 -38 -14 -81 -14 -94
+        0 -13 -6 -44 -14 -70 -14 -43 -25 -86 -46 -171 -9 -39 -26 -90 -45 -135 -7
+        -16 -20 -50 -30 -75 -29 -74 -126 -267 -162 -321 -18 -28 -33 -53 -33 -55 0
+        -3 -35 -51 -77 -107 -156 -207 -387 -408 -588 -512 -27 -14 -57 -29 -65 -34
+        -102 -59 -322 -133 -520 -175 -81 -17 -388 -50 -417 -44 -17 3 -18 33 -18 583
+        -1 319 -7 821 -14 1115 -12 505 -8 2140 5 2162 10 16 808 10 939 -7z m-3629
+        -331 c182 -59 341 -203 402 -364 44 -116 48 -338 7 -420 -7 -14 -21 -43 -31
+        -65 -41 -87 -190 -245 -231 -245 -5 0 -14 -5 -21 -12 -24 -24 -111 -49 -232
+        -67 -87 -14 -219 13 -327 65 -78 37 -204 143 -224 189 -5 11 -19 36 -30 55
+        -78 128 -94 324 -40 485 55 167 195 301 386 371 78 28 265 33 341 8z m-5241
+        -252 c82 -57 79 -37 85 -567 l5 -470 470 -5 c526 -6 510 -3 558 -80 22 -35 22
+        -39 22 -520 0 -485 0 -485 -23 -516 -53 -71 -35 -68 -557 -74 l-470 -5 -3
+        -473 c-2 -516 1 -487 -61 -555 -55 -61 -52 -60 -550 -58 -475 3 -485 4 -537
+        48 -54 47 -53 34 -58 549 -3 262 -9 481 -13 485 -5 5 -220 9 -478 11 -529 3
+        -496 -1 -556 82 -29 39 -29 39 -29 511 0 652 -63 589 593 593 364 2 477 6 477
+        15 0 7 1 224 3 482 2 470 2 470 27 503 50 68 41 66 505 72 530 6 539 6 590
+        -28z m3950 -1017 c365 -75 563 -494 400 -845 -31 -67 -45 -85 -114 -156 -227
+        -228 -594 -236 -831 -17 -116 108 -201 293 -200 440 0 35 31 168 52 223 103
+        269 392 417 693 355z m2503 9 c177 -44 292 -124 387 -269 109 -167 117 -393
+        21 -595 -33 -68 -160 -209 -207 -229 -13 -6 -31 -15 -39 -20 -113 -67 -303
+        -91 -429 -55 -101 30 -243 113 -291 171 -109 132 -144 216 -156 383 -8 95 25
+        252 62 301 5 8 19 31 29 52 11 22 52 69 91 107 146 138 353 198 532 154z
+        m-1278 -1298 c47 -7 99 -19 115 -26 187 -79 284 -179 365 -375 48 -116 27
+        -354 -42 -477 -39 -70 -144 -183 -195 -211 -152 -83 -184 -92 -340 -91 -78 1
+        -148 5 -155 10 -7 6 -40 21 -73 34 -74 29 -178 104 -226 162 -37 45 -99 152
+        -99 172 0 6 -7 25 -16 41 -26 46 -25 282 0 350 98 265 280 400 571 423 6 1 48
+        -5 95 -12z"/>
+            <path id="wispL" class="wisp wisp-l" transform="translate(-2200, 0)" fill="currentColor" d="M6447 16473 c-3 -5 15 -29 40 -54 187 -181 283 -425 283 -717 0 -141
+        -6 -184 -47 -332 -95 -341 -323 -636 -883 -1140 -172 -155 -243 -223 -400
+        -386 -101 -105 -189 -210 -254 -303 -57 -81 -69 -103 -171 -311 -17 -34 -69
+        -208 -91 -305 -26 -114 -26 -473 0 -590 23 -103 57 -217 68 -230 4 -5 8 -18 8
+        -28 0 -10 6 -31 14 -45 8 -15 31 -61 51 -102 153 -313 420 -577 755 -745 101
+        -51 153 -73 205 -89 33 -10 70 -22 82 -27 42 -16 37 21 -10 70 -24 25 -61 69
+        -83 96 -21 28 -42 52 -45 55 -3 3 -9 12 -12 20 -4 8 -16 29 -27 45 -123 190
+        -180 393 -180 647 0 225 25 355 110 568 125 314 358 606 795 995 258 229 525
+        516 621 665 91 143 191 358 214 460 4 19 12 55 18 80 38 160 49 311 32 435 -7
+        50 -15 113 -19 140 -4 28 -12 66 -19 85 -6 19 -20 62 -31 95 -31 93 -44 126
+        -68 170 -12 22 -32 60 -45 85 -71 136 -277 367 -413 460 -27 19 -52 38 -55 41
+        -3 3 -27 19 -53 35 -27 16 -61 37 -75 46 -15 10 -34 20 -42 24 -8 3 -22 10
+        -30 15 -8 5 -22 12 -30 15 -8 3 -28 12 -45 19 -88 37 -159 53 -168 38z"/>
+            <path id="wispR" class="wisp wisp-r" transform="translate(1100, 0)" fill="currentColor" d="M8513 15122 c-9 -6 -9 -13 0 -29 17 -30 52 -102 68 -138 85 -199 61
+        -547 -52 -745 -5 -8 -13 -25 -19 -38 -5 -12 -27 -48 -47 -80 -21 -31 -41 -64
+        -44 -72 -34 -76 -343 -386 -664 -666 -228 -199 -527 -527 -601 -659 -76 -137
+        -111 -224 -158 -395 -56 -202 -40 -504 38 -733 9 -26 20 -55 24 -64 5 -10 25
+        -49 43 -88 84 -174 266 -361 431 -444 23 -12 50 -26 58 -31 32 -18 89 -40 107
+        -40 10 -1 29 -7 43 -15 58 -33 87 -12 50 35 -18 23 -90 164 -90 176 0 3 -6 20
+        -13 37 -25 60 -39 102 -48 147 -4 25 -13 61 -18 80 -17 55 -14 284 5 354 101
+        389 267 611 809 1075 325 280 475 434 580 601 38 59 95 172 95 187 0 6 6 24
+        14 40 46 93 76 265 76 438 0 188 -29 330 -105 500 -7 17 -16 37 -19 45 -3 8
+        -15 29 -26 45 -11 17 -23 37 -27 45 -48 106 -280 320 -423 392 -25 12 -52 28
+        -60 35 -9 6 -21 9 -27 5z"/>
+          
+            <use href="#wispR" class="wisp wisp-r-2" transform="translate(-1100, 0)" />
+          </g>
+        </svg>
+      </div>
+      <h1 class="wordmark">Coffee Makes Games</h1>
+      <p class="tagline">Coffee in. Games out.</p>
+      <p class="hero-sub">A solo indie studio brewing games with care, one cup at a time.</p>
+    </section>
+
+    <section id="dungeon-story" class="game-block">
+      <div class="pixel-frame">
+        <img class="key-art" src="/assets/dungeon-story/app-icon.png" alt="Dungeon Story key art — a hooded rogue with a torch in a dungeon" width="220" height="220" />
+        <h2 class="pixel-title">Dungeon Story</h2>
+        <p class="pixel-subtitle">Match &amp; Monsters</p>
+        <p class="pixel-tagline">Match tokens. Survive. One more run.</p>
+
+        <p class="pitch">
+          Dungeon Story is a match-3 dungeon-crawler that bites back.
+        </p>
+
+        <p class="pitch">
+          Match tokens in any direction. Every chain is an attack, a heal, a spell. The board refills, the
+          monster strikes. Simple to read. Hard to survive.
+        </p>
+
+        <p class="pitch">
+          The kingdom holds four dungeons. Each one runs as far as you can survive. Monsters scale with every
+          battle, bosses gate the path to new dungeons, and every run ends when you do. The only question is how
+          far you can push before the dungeon pushes back. And it will.
+        </p>
+
+        <p class="pitch">
+          Nine classes change how the board itself works. One trades steel for fire, ice, and thunder. One turns
+          coins on the board into damage. One bets every fight on the roll of the dice. Same 6×6 board. Nine
+          genuinely different ways to play.
+        </p>
+
+        <p class="pitch">
+          When a run ends, head back to Hearthfall. Train new classes, upgrade gear, ready yourself for the next
+          attempt. Lose the run, keep the progress, come back stronger.
+        </p>
+
+        <div class="cta-row">
+          <span class="coming-soon-badge">Coming soon to iOS</span>
+          <a class="policy-cta" href="/dungeon-story/privacy/">Privacy Policy</a>
+        </div>
+      </div>
+
+      <div class="trailer">
+        <button class="trailer-thumb" type="button" aria-label="Play Dungeon Story trailer" data-video-id="z_5Ux8oXAg4">
+          <img src="/assets/dungeon-story/trailer-poster.webp" alt="Dungeon Story — Match &amp; Monsters trailer" width="1920" height="1080" loading="lazy" />
+          <span class="trailer-play" aria-hidden="true">
+            <svg viewBox="0 0 80 80" width="80" height="80" focusable="false">
+              <circle cx="40" cy="40" r="38" fill="currentColor" />
+              <polygon points="32,24 32,56 58,40" fill="#3B2A1E" />
+            </svg>
+          </span>
+          <span class="trailer-label">Watch the trailer</span>
+        </button>
+      </div>
+
+      <div class="screenshots" aria-label="Dungeon Story screenshots">
+        <img src="/assets/dungeon-story/screenshot-1.webp" alt="Dungeon Story — chain in motion on the battle board" loading="lazy" />
+        <img src="/assets/dungeon-story/screenshot-2.webp" alt="Dungeon Story — Arcanist channels a beam at a wizard in a moonlit ruin, board below mixing fire, ice, and lightning runes" loading="lazy" />
+        <img src="/assets/dungeon-story/screenshot-3.webp" alt="Dungeon Story — Thief strikes the Feast King in a candle-lit Crimson Manor throne hall" loading="lazy" />
+        <img src="/assets/dungeon-story/screenshot-4.webp" alt="Dungeon Story — Necromancer faces a towering orc brute beneath a stained-glass cathedral window" loading="lazy" />
+        <img src="/assets/dungeon-story/screenshot-5.webp" alt="Dungeon Story — world map showing Hearthfall village, Dark Forest, Lake Temple, Crimson Manor, and the Fallen Castle on the horizon" loading="lazy" />
+        <img src="/assets/dungeon-story/screenshot-6.webp" alt="Dungeon Story — Ranger lines up a massive sword chain against a moonlit forest slime for 78 damage" loading="lazy" />
+      </div>
+
+      <ul class="features" aria-label="Key features">
+        <li>
+          <h3>Every move counts.</h3>
+          <p>One small decision per turn. A hundred of them per run. Strike, heal, cast, spend. The dungeon doesn't care about your last good move. It cares about your next one.</p>
+        </li>
+        <li>
+          <h3>Pick a class. Earn it.</h3>
+          <p>Stay with a class long enough and it grows. A signature ability, then more passives at every rank. Nine classes. Nine paths. Walk one. Walk all. None will play like the last.</p>
+        </li>
+        <li>
+          <h3>Hunt. Survive.</h3>
+          <p>Four dungeons. A cursed forest. A drowned temple. A haunted manor. A fallen castle. Each runs as far as you can survive. Each one ends the same way. With you on the floor.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Stay in touch</h2>
+      <p>Follow along, or drop a line — we'd love to hear from you.</p>
+      <div class="contact-row">
+        <a class="social-btn" href="https://x.com/coffeemakesgame" rel="me noopener" target="_blank" aria-label="Coffee Makes Games on X">
+          <svg class="social-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/>
+          </svg>
+        </a>
+        <a class="social-btn" href="https://instagram.com/coffeemakesgames" rel="me noopener" target="_blank" aria-label="Coffee Makes Games on Instagram">
+          <svg class="social-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/>
+          </svg>
+        </a>
+        <a class="social-btn" href="https://www.youtube.com/@CoffeeMakesGamesStudio" rel="me noopener" target="_blank" aria-label="Coffee Makes Games on YouTube">
+          <svg class="social-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+        </a>
+        <a class="email-btn" href="mailto:hello@coffeemakesgames.com">
+          <svg class="social-icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 6.5h18v11H3z M3 6.5l9 6.5 9-6.5"/>
+          </svg>
+          <span>hello@coffeemakesgames.com</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> Coffee Makes Games LLC · Made with ☕ and ❤️</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Lite YouTube embed: load the iframe only when the user clicks.
+    (function () {
+      const thumbs = document.querySelectorAll('.trailer-thumb');
+      thumbs.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          const id = btn.getAttribute('data-video-id');
+          if (!id) return;
+          const wrap = document.createElement('div');
+          wrap.className = 'trailer-iframe';
+          const iframe = document.createElement('iframe');
+          iframe.src = 'https://www.youtube-nocookie.com/embed/' + id +
+            '?autoplay=1&rel=0&modestbranding=1&playsinline=1';
+          iframe.title = 'Dungeon Story trailer';
+          iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+          iframe.allowFullscreen = true;
+          iframe.loading = 'lazy';
+          wrap.appendChild(iframe);
+          btn.replaceWith(wrap);
+        });
+      });
+    })();
+
+    // Reveal the sticky header once the hero has scrolled out of view.
+    (function () {
+      const header = document.querySelector('.site-header');
+      const hero = document.querySelector('.hero');
+      if (!header || !hero || !('IntersectionObserver' in window)) {
+        header && header.classList.add('is-revealed');
+        return;
+      }
+      const io = new IntersectionObserver(function (entries) {
+        const visible = entries[0].isIntersecting;
+        header.classList.toggle('is-revealed', !visible);
+        document.body.classList.toggle('header-revealed', !visible);
+        header.setAttribute('aria-hidden', visible ? 'true' : 'false');
+      }, { rootMargin: '-40px 0px 0px 0px', threshold: 0 });
+      io.observe(hero);
+    })();
+
+    // Theme toggle: cycles between user-light and user-dark, with system as the default.
+    (function () {
+      const root = document.documentElement;
+      const buttons = Array.from(document.querySelectorAll('.theme-toggle'));
+      const meta = document.querySelector('meta[name="theme-color"]');
+      const mq = window.matchMedia('(prefers-color-scheme: dark)');
+
+      function currentTheme() {
+        return root.getAttribute('data-theme') || (mq.matches ? 'dark' : 'light');
+      }
+      function syncMeta() {
+        if (!meta) return;
+        meta.setAttribute('content', currentTheme() === 'dark' ? '#10141C' : '#EFE9DD');
+      }
+      function syncButtons() {
+        const dark = currentTheme() === 'dark';
+        const label = dark ? 'Switch to light mode' : 'Switch to dark mode';
+        buttons.forEach(function (btn) {
+          btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+          btn.setAttribute('aria-label', label);
+          btn.setAttribute('title', label);
+        });
+      }
+
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          const next = currentTheme() === 'dark' ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+          syncMeta();
+          syncButtons();
+        });
+      });
+
+      mq.addEventListener && mq.addEventListener('change', function () {
+        if (!root.getAttribute('data-theme')) { syncMeta(); syncButtons(); }
+      });
+
+      syncMeta();
+      syncButtons();
+    })();
+  </script>
+</body>
+</html>
