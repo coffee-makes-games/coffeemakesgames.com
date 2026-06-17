@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Dungeon Story Classic Privacy Policy - Coffee Makes Games Studio</title>
+  <meta name="description" content="Privacy policy for Dungeon Story Classic, including local progress, iCloud save sync, and Game Center leaderboards." />
+  <meta name="theme-color" content="#EFE9DD" />
+  <link rel="canonical" href="https://coffeemakesgames.com/dungeon-story-classic/privacy/" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+
+  <script>
+    // Apply saved theme before paint to avoid flash of wrong theme.
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') {
+          document.documentElement.setAttribute('data-theme', saved);
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="policy-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header is-revealed" aria-hidden="false">
+    <div class="site-header-inner">
+      <a class="brand" href="/" aria-label="Coffee Makes Games Studio - home">
+        <img src="/assets/studio-mark.svg" alt="" width="24" height="24" />
+        <span>Coffee Makes Games Studio</span>
+      </a>
+      <div class="header-actions">
+        <nav aria-label="Primary">
+          <a href="/#games">Games</a>
+          <a href="/#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false" title="Toggle dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z"/>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <circle cx="12" cy="12" r="4" fill="currentColor" stroke="none"/>
+              <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+            </g>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="policy-shell">
+    <article class="policy-card">
+      <header class="policy-game-header">
+        <img class="policy-game-icon policy-game-icon--pixel" src="/assets/dungeon-story-classic/app-icon.png" alt="" width="1024" height="1024" />
+        <div>
+          <p class="eyebrow">Dungeon Story Classic</p>
+          <h1>Privacy Policy</h1>
+          <p class="policy-updated">Last updated: June 22, 2026</p>
+        </div>
+      </header>
+
+      <p>
+        Dungeon Story Classic is a Puzzle RPG. Coffee Makes Games does not collect personal data
+        from players, does not show ads, and does not use third-party tracking for advertising in the game.
+      </p>
+
+      <h2>What Coffee Makes Games collects</h2>
+      <p>
+        We do not collect names, email addresses, location, contacts, photos, microphone recordings,
+        camera data, advertising identifiers, or gameplay analytics from Dungeon Story Classic.
+      </p>
+
+      <h2>Local progress</h2>
+      <p>
+        The game may save progress on the device, such as settings, hero progress, inventory,
+        completed quests, unlocked classes, achievements, and other gameplay state. This data is used
+        only to keep the game working for the player.
+      </p>
+
+      <h2>iCloud sync</h2>
+      <p>
+        If iCloud is available on the device, the game may use Apple's iCloud services to sync
+        save data and progress across the player's own devices. Coffee Makes Games does not receive
+        Apple ID credentials through iCloud.
+      </p>
+
+      <h2>Game Center</h2>
+      <p>
+        The game may use Apple's Game Center services for achievements and leaderboards. If the player
+        is signed in to Game Center, the game may submit achievement progress and leaderboard scores to
+        Apple. Game Center data is associated with the player's Game Center account by Apple and may be
+        visible to other Game Center players according to the player's Game Center settings.
+      </p>
+      <p>
+        Coffee Makes Games does not receive Apple ID credentials through Game Center and does not use
+        Game Center data for advertising or third-party tracking.
+      </p>
+
+      <h2>Your choices</h2>
+      <p>
+        iCloud sync can be managed through the device's iCloud settings. Game Center profile,
+        achievement, and leaderboard visibility settings are managed by Apple.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        For privacy questions, contact Coffee Makes Games at
+        <a href="mailto:hello@coffeemakesgames.com">hello@coffeemakesgames.com</a>.
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Coffee Makes Games LLC</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme toggle: cycles between user-light and user-dark, with system as the default.
+    (function () {
+      const root = document.documentElement;
+      const buttons = Array.from(document.querySelectorAll('.theme-toggle'));
+      const meta = document.querySelector('meta[name="theme-color"]');
+      const mq = window.matchMedia('(prefers-color-scheme: dark)');
+
+      function currentTheme() {
+        return root.getAttribute('data-theme') || (mq.matches ? 'dark' : 'light');
+      }
+      function syncMeta() {
+        if (!meta) return;
+        meta.setAttribute('content', currentTheme() === 'dark' ? '#10141C' : '#EFE9DD');
+      }
+      function syncButtons() {
+        const dark = currentTheme() === 'dark';
+        const label = dark ? 'Switch to light mode' : 'Switch to dark mode';
+        buttons.forEach(function (btn) {
+          btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+          btn.setAttribute('aria-label', label);
+          btn.setAttribute('title', label);
+        });
+      }
+
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          const next = currentTheme() === 'dark' ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+          syncMeta();
+          syncButtons();
+        });
+      });
+
+      mq.addEventListener && mq.addEventListener('change', function () {
+        if (!root.getAttribute('data-theme')) { syncMeta(); syncButtons(); }
+      });
+
+      syncMeta();
+      syncButtons();
+    })();
+  </script>
+</body>
+</html>

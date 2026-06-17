@@ -1,0 +1,32 @@
+# Coffee Makes Games
+
+> Coffee Makes Games is a one-person indie studio that designs and publishes mobile games for the App Store.
+
+The studio's catalog includes Dungeon Story, SIGNAL//LOSS, Mini Boba Shop, and Turbo Truck Drive.
+
+## Home
+
+- [Home](https://coffeemakesgames.com): Overview of the studio and its games.
+
+## Dungeon Story
+
+- [Press](https://coffeemakesgames.com/dungeon-story/press): Press information for Dungeon Story.
+- [Privacy Policy](https://coffeemakesgames.com/dungeon-story/privacy): Privacy policy for Dungeon Story.
+
+## SIGNAL//LOSS
+
+- [App Store](https://apps.apple.com/us/app/signal-loss/id6781405491): Download SIGNAL//LOSS.
+- [Press](https://coffeemakesgames.com/signal-loss/press): Press information for SIGNAL//LOSS.
+- [Privacy Policy](https://coffeemakesgames.com/signal-loss/privacy): Privacy policy for SIGNAL//LOSS.
+
+## Mini Boba Shop
+
+- [Privacy Policy](https://coffeemakesgames.com/mini-boba-shop/privacy): Privacy policy for Mini Boba Shop.
+
+## Turbo Truck Drive
+
+- [Privacy Policy](https://coffeemakesgames.com/turbo-truck-drive/privacy): Privacy policy for Turbo Truck Drive.
+
+## Site Metadata
+
+- [Sitemap](https://coffeemakesgames.com/sitemap.xml): XML sitemap of the site.
